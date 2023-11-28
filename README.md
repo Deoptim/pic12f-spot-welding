@@ -10,6 +10,10 @@ The pinout of the original microcontroller in this spot weld is compatible with 
     *  This firmware also has six modes from 5ms to 20ms, but on the 6th mode you can enter the sub-mode in which you can adjust the last value from 20ms (in +3ms steps) to 50ms - this is necessary in case you have a long wire or you want to solder a more current. In the sub-mode the selected mode is saved and in the future (even after power-off the module) it is enough just to switch to the sixth mode.
     *  By default the last chosen modes is not saved (in case the board is power-off), but this option can be enabled when compiling/recompiling the firmware SAVE_LAST_MODE.
     *  Buzzer beeps only when switching mode and only during welding. Unlike the original firmware, the buzzer does beep a certain number of times in proportion to the selected mode (it is annoying), but this option also can be enabled when compiling/recompiling the firmware BEEP_CHANGE_MODE.
+ 
+* Short Press Button - switch modes
+* Long Press Button on 6th mode - and Short Press press up to theen times - then again Long Press Button to save 6th mode in this settings.
+* Power-up with Pressed Button - reset EEPROM
 
 Link to this model of spot welder:
 https://www.aliexpress.com/item/1005006198373222.html
