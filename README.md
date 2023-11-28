@@ -1,7 +1,7 @@
 # Alternative firmware for cheap ($6) 12 volt spot welding batteries based on PIC12F microcontroller (PIC12F683 or PIC12F1822 is supported)
 
-[![leap-splash](./Image/DIY-Spot-Welder-Kit-Portable-12V-Battery-Storage-Spots-Welding-Machine-Printed-Circuit-Board-Welding-Equipment.jpg_Q90.jpg_.jpg?raw=true)](123)
-[![leap-splash](./Image/Spot_Welding_PIC12F683-Proteus-8-Professional-Schematic-Capture-28.11.2023-14_20_44.png?raw=true)](123)
+[![leap-splash](./Image/DIY-Spot-Welder-Kit-Portable-12V-Battery-Storage-Spots-Welding-Machine-Printed-Circuit-Board-Welding-Equipment.jpg_Q90.jpg_.jpg?raw=true)]
+[![leap-splash](./Image/Spot_Welding_PIC12F683-Proteus-8-Professional-Schematic-Capture-28.11.2023-14_20_44.png?raw=true)]
 
 The original firmware of the unknown microcontroller has six modes from 5ms to 20ms point delay (if you have wires longer than 30cm, the delay must be longer than 20ms - this is a significant drawback and is why this firmware was written)
 The pinout of the original microcontroller in this spot weld is compatible with the PIC12F family of 8 pin microcontrollers.
